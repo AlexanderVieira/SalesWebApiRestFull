@@ -21,25 +21,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.3-CrossCutting", "5.3-Cro
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.4-XUnitTest", "5.4-XUnitTest", "{79AEC15D-38EC-4B6A-951A-B96992278470}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.UI.Site", "Sales.UI.Site\Sales.UI.Site.csproj", "{5CCA110B-E764-46EE-A571-8738538250BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.UI.Site", "Sales.UI.Site\Sales.UI.Site.csproj", "{5CCA110B-E764-46EE-A571-8738538250BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.WebApi", "Sales.WebApi\Sales.WebApi.csproj", "{E6C03B56-2C89-42D5-81E1-F20AEAC55D92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.WebApi", "Sales.WebApi\Sales.WebApi.csproj", "{E6C03B56-2C89-42D5-81E1-F20AEAC55D92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Application", "Sales.Application\Sales.Application.csproj", "{437BEF30-9843-4299-8001-D66EEC64D911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Application", "Sales.Application\Sales.Application.csproj", "{437BEF30-9843-4299-8001-D66EEC64D911}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Domain", "Sales.Domain\Sales.Domain.csproj", "{4EB74730-6FFC-4B87-903E-67F498F493EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Domain", "Sales.Domain\Sales.Domain.csproj", "{4EB74730-6FFC-4B87-903E-67F498F493EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Infra.Data", "Sales.Infra.Data\Sales.Infra.Data.csproj", "{D89F25AD-2106-45CA-A66B-63ABB925A158}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Infra.Data", "Sales.Infra.Data\Sales.Infra.Data.csproj", "{D89F25AD-2106-45CA-A66B-63ABB925A158}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Infra.CrossCutting.Identity", "Sales.Infra.CrossCutting.Identity\Sales.Infra.CrossCutting.Identity.csproj", "{2CEC6969-8670-4782-8D51-07FF026BF81F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Infra.CrossCutting.Identity", "Sales.Infra.CrossCutting.Identity\Sales.Infra.CrossCutting.Identity.csproj", "{2CEC6969-8670-4782-8D51-07FF026BF81F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Infra.CrossCutting.IoC", "Sales.Infra.CrossCutting.IoC\Sales.Infra.CrossCutting.IoC.csproj", "{26B5258F-202E-47ED-B4B2-69F371E09FCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Infra.CrossCutting.IoC", "Sales.Infra.CrossCutting.IoC\Sales.Infra.CrossCutting.IoC.csproj", "{26B5258F-202E-47ED-B4B2-69F371E09FCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Infra.XUnitTest", "Sales.Infra.XUnitTest\Sales.Infra.XUnitTest.csproj", "{BF8AC24D-1E1E-4914-8D8E-8D348252341A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Infra.XUnitTest", "Sales.Infra.XUnitTest\Sales.Infra.XUnitTest.csproj", "{BF8AC24D-1E1E-4914-8D8E-8D348252341A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2-Azure", "5.2-Azure", "{677C2E17-070C-41B9-81A6-0C85E5384C7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sales.Infra.Azure", "Sales.Infra.Azure\Sales.Infra.Azure.csproj", "{AC41E817-0FE0-431D-BB71-81008D6CD8C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sales.Infra.Azure", "Sales.Infra.Azure\Sales.Infra.Azure.csproj", "{AC41E817-0FE0-431D-BB71-81008D6CD8C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{61424D72-D401-4C8E-9817-E5438D6FEF8B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\EduardoPires\EquinoxProject\global.json = ..\..\EduardoPires\EquinoxProject\global.json
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
