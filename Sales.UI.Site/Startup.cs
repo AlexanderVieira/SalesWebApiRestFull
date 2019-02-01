@@ -4,8 +4,10 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Sales.Infra.Data.Context;
 
 namespace Sales.UI.Site
 {
@@ -22,6 +24,12 @@ namespace Sales.UI.Site
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            //services.AddDbContext<SalesContext>(opt =>
+            //opt.UseInMemoryDatabase(databaseName: "ConnectionTest"));
+
+            //services.AddDbContext<SalesContext>(options =>
+            //options.UseSqlServer(Configuration.GetConnectionString("Connection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

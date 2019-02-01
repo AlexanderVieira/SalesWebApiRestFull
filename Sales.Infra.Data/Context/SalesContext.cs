@@ -34,7 +34,7 @@ namespace Sales.Infra.Data.Context
                 .Build();
 
             // define a base de dados
-            optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+            optionsBuilder.UseInMemoryDatabase("Connection");
         }
     }
 }
